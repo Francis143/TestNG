@@ -2,8 +2,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+  <parameter name="username" value="Francis3535"></parameter>
+  <parameter name="password" value="Francis@123"></parameter>
     <classes>
-      <class name="com.sample.ClassA"/>
+      <class name="com.sample.Param"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

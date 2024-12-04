@@ -1,73 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-04T19:51:12 IST" name="Default suite" finished-at="2024-12-04T19:51:12 IST" duration-ms="70">
+  <suite started-at="2024-12-04T20:10:20 IST" name="Suite" finished-at="2024-12-04T20:10:20 IST" duration-ms="52">
     <groups>
     </groups>
-    <test started-at="2024-12-04T19:51:12 IST" name="Default test" finished-at="2024-12-04T19:51:12 IST" duration-ms="70">
-      <class name="com.sample.InvocationCount">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.sample.InvocationCount@5e0e82ae]" started-at="2024-12-04T19:51:12 IST" name="beforeMethod" finished-at="2024-12-04T19:51:12 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="tc()[pri:0, instance:com.sample.InvocationCount@5e0e82ae]" started-at="2024-12-04T19:51:12 IST" name="tc" finished-at="2024-12-04T19:51:12 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.sample.InvocationCount@5e0e82ae]" started-at="2024-12-04T19:51:12 IST" name="afterMethod" finished-at="2024-12-04T19:51:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="tc()[pri:0, instance:com.sample.InvocationCount@5e0e82ae]" started-at="2024-12-04T19:51:12 IST" name="tc" finished-at="2024-12-04T19:51:12 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.sample.InvocationCount@5e0e82ae]" started-at="2024-12-04T19:51:12 IST" name="beforeMethod" finished-at="2024-12-04T19:51:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.sample.InvocationCount@5e0e82ae]" started-at="2024-12-04T19:51:12 IST" name="afterMethod" finished-at="2024-12-04T19:51:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="tc()[pri:0, instance:com.sample.InvocationCount@5e0e82ae]" started-at="2024-12-04T19:51:12 IST" name="tc" finished-at="2024-12-04T19:51:12 IST" duration-ms="1" status="PASS">
+    <test started-at="2024-12-04T20:10:20 IST" name="Test" finished-at="2024-12-04T20:10:20 IST" duration-ms="52">
+      <class name="com.sample.Param">
+        <test-method signature="tc(java.lang.String,java.lang.String)[pri:0, instance:com.sample.Param@4afcd809]" started-at="2024-12-04T20:10:20 IST" name="tc" finished-at="2024-12-04T20:10:20 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Francis3535]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Francis@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.sample.InvocationCount@5e0e82ae]" started-at="2024-12-04T19:51:12 IST" name="beforeMethod" finished-at="2024-12-04T19:51:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.sample.InvocationCount@5e0e82ae]" started-at="2024-12-04T19:51:12 IST" name="afterMethod" finished-at="2024-12-04T19:51:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.sample.InvocationCount@5e0e82ae]" started-at="2024-12-04T19:51:12 IST" name="beforeMethod" finished-at="2024-12-04T19:51:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="tc()[pri:0, instance:com.sample.InvocationCount@5e0e82ae]" started-at="2024-12-04T19:51:12 IST" name="tc" finished-at="2024-12-04T19:51:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.sample.InvocationCount@5e0e82ae]" started-at="2024-12-04T19:51:12 IST" name="afterMethod" finished-at="2024-12-04T19:51:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="tc()[pri:0, instance:com.sample.InvocationCount@5e0e82ae]" started-at="2024-12-04T19:51:12 IST" name="tc" finished-at="2024-12-04T19:51:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.sample.InvocationCount@5e0e82ae]" started-at="2024-12-04T19:51:12 IST" name="beforeMethod" finished-at="2024-12-04T19:51:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.sample.InvocationCount@5e0e82ae]" started-at="2024-12-04T19:51:12 IST" name="afterMethod" finished-at="2024-12-04T19:51:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.sample.InvocationCount -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.sample.Param -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
