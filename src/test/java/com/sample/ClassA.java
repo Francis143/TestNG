@@ -8,6 +8,11 @@ import org.testng.annotations.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ClassA {
+	@BeforeGroups
+	public void beforeGroup() {
+		System.out.println("BeforeGroups");
+	}
+	
 	@BeforeClass
 	public void beforeClass() {
 		System.out.println("BeforeClass");
@@ -22,7 +27,7 @@ public class ClassA {
 		driver.get("https://adactinhotelapp.com/");
 	}
 
-	@Test
+	@Test(groups="smoke")
 	public void test() {
 
 		driver.findElement(By.id("username")).sendKeys("Francis3535");
@@ -41,7 +46,10 @@ public class ClassA {
 		System.out.println("AfterClass");
 	}
 	
-	
+	@AfterGroups
+	public void afterGroups() {
+		System.out.println("AfterGroups");
+	}	
 	
 	
 }
